@@ -1,5 +1,7 @@
 require 'redmine'
 
+require_dependency 'theadmin_layout_hook'
+
 Redmine::Plugin.register :redmine_theadmin do
   name 'theAdmin plugin'
   author 'Eric Davis'
